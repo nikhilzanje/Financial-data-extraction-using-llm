@@ -1,5 +1,4 @@
 openai==0.28
 streamlit
 pandas
-python-dotenggiv==1.0.1
 mistralai
