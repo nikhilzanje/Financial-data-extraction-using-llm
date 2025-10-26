@@ -5,8 +5,8 @@ import os
 
 import pandas as pd
 from mistralai import Mistral
-from dotenv import load_dotenv
-load_dotenv()
+
+
 
 try:
     client = Mistral(api_key=os.environ.get("MISTRAL_API_KEY"))
